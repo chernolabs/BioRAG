@@ -46,13 +46,13 @@ Your answer:
 
 def traducir_consulta(
     consulta: str,
-    model_name: str = "codellama:7b-instruct",   
+    model_name: str = "qwen2.5-coder:1.5b",   
     *,
     temperature: float = 0.1,                # un toque de flexibilidad para sinonimos
     max_tokens: int = 70,
 ) -> str:
     """
-    Dada una consulta en español, devuelve una QUERY en inglés ya expandida para Europe PMC
+    Dada una consulta, devuelve una QUERY en inglés ya expandida para Europe PMC
     (booleanos, frases). Devuelve SOLO la query en una línea.
     """
     prompt = _FEWSHOT_EPMC.format(question=consulta)
