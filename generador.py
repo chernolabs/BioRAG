@@ -123,7 +123,7 @@ def responder_consulta(
     model_name: str = "gemma3:1b",
     *,
     host: Optional[str] = None,
-    temperature: float = 0.2,
+    temperature: float = 0.1,
     max_tokens: int = 300,
 ) -> Tuple[str, str]:
     """

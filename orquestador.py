@@ -49,7 +49,7 @@ demo = gr.Interface(
         gr.Markdown(label="Top recuperados")
     ],
     title="BioRAG",
-    description="Write a question in English. For ex. 'What pathways might be associated to TNF proteins?'"
+    description="Write a question in English. For ex. 'What are the pathways associated to TNF proteins?'"
 )
 
 if __name__ == "__main__":
