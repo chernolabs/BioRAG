@@ -84,7 +84,7 @@ Para rankear:
 1) Instalar dependencias:
    - `pip install -r requirements.txt`
 2) Tener Ollama corriendo y con modelos descargados:
-   - Query: `codellama:7b-instruct`
+   - Query: `qwen2.5-coder:1.5b`
    - Answer: `gemma3:1b`
 3) Ejecutar:
    - `python orquestador.py`
